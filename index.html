@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
-    <h1 id="title">Survy Form</h1>
+    <h1 id="title">Survey Form</h1>
     <p id="description">this is Muhmmd And Julius in Microverse Project</p>
     <form action="" id="survey-form">
       <label for="name" id="name-label">Name</label>
@@ -17,15 +18,8 @@
       <input type="text" id="mail" required placeholder="enter your mail" />
 
       <label for="name" id="number-label">Number</label>
-      <input
-        type="number"
-        id="number"
-        required
-        placeholder="enter your number"
-        min="10"
-        max="100"
-      />
-      <p>which your favoriet colors</p>
+      <input type="number" id="number" required placeholder="enter your number" min="10" max="100"/>
+      <p>Which your favorite colors</p>
       <select name="Seletion" id="dropdown">
         >
         <option value="Red">Red</option>
@@ -38,8 +32,22 @@
         <input type="radio" name="Radio-Botton" value="1" />Male</label
       >
       <label for="">
-        <input type="radio" name="Radio-Botton" value="2" />Female</label
-      >
-    </form>
+        <input type="radio" name="Radio-Botton" value="2" />Female</label>
+      <p>Favorite programming langauage</p> 
+      
+      <label for="python">
+      <input type="checkbox" id="python" name="python" value="Python">
+        Python</label><br>
+      
+      <label for="Java">
+        <input type="checkbox" id="Java" name="Java" value="Java">
+        Java</label><br>
+      <label for="JavaScript"> 
+        <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+        JavaScript</label><br>
+      <label>For any additional comments, feel free to leave a comment</label>
+      <textarea placeholder="Leave additional comments here" id ="message"></textarea>
+      <button type="submit" >Submit</button>
+      </form>
   </body>
 </html>
