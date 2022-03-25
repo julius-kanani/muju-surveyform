@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Times New Romans", sans-serif;
 }
+
 body {
   background-color: rgb(235, 211, 0);
   display: flex;
@@ -11,17 +12,20 @@ body {
   flex-direction: column;
   color: white;
 }
+
 #title,
 #description {
   text-align: center;
   margin: 10px 0;
 }
+
 label {
   display: flex;
   align-items: center;
   font-size: 1.5 px;
   margin-bottom: 10px;
 }
+
 input,
 button,
 select,
@@ -31,6 +35,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+
 #survey-form {
   background-color: rgb(10, 48, 155);
   width: 50%;
@@ -44,12 +49,14 @@ textarea {
   width: 100%;
   margin: 3.125rem;
 }
+
 textarea {
   height: 120px;
   width: 100%;
   padding: 20px;
   resize: vertical;
 }
+
 button {
   display: block;
   width: 100%;
